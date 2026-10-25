@@ -3,69 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YAB Global Holdings LLC | Private Capital
-        & Investment Management
-    </title>
-    <meta name="description" content="YAB Global Holdings LLC is a Wyoming-registered
-    private investment holding and propritary trading firm.">
+    <title>YAB Global Holdings LLC | Private Capital & Investment Management</title>
+    <meta name="description" content="YAB Global Holdings LLC is a Wyoming-registered private investment holding and proprietary trading firm.">
     <!-- Google Fonts -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Link to CSS File -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- NAVIGATION BAR WITH LOGO -->
-     <nav id="navbar">
+
+    <!-- NAVIGATION BAR WITH LOGO & MOBILE MENU -->
+    <nav id="navbar">
         <div class="nav-container">
             <a href="#" class="logo-link">
-                <!-- Ensure your logo image is named logo.jpg and
-                 saved in the same folder -->
-                 <img src="logo.jpg" alt="YAB Global Holdings Logo" class="logo-img">
+                <img src="logo.jpg" alt="YAB Global Holdings Logo" class="logo-img">
             </a>
+            
+            <!-- Desktop / Standard Nav Links -->
             <div class="nav-links">
                 <a href="#who-we-are">Who We Are</a>
                 <a href="#what-we-do">What We Do</a>
                 <a href="#our-approach">Approach</a>
                 <a href="#contact">Contact</a>
             </div>
+
+            <!-- Mobile Menu Hamburger Button -->
+            <button class="mobile-menu-btn" id="menu-btn" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
-     </nav>
-     <!-- Header-->
-      <header>
-        <div class="containerheader-content">
+
+        <!-- Mobile Dropdown Menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="#who-we-are" class="mobile-link">Who We Are</a>
+            <a href="#what-we-do" class="mobile-link">What We Do</a>
+            <a href="#our-approach" class="mobile-link">Approach</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+        </div>
+    </nav>
+
+    <!-- HEADER / HERO SECTION -->
+    <header>
+        <div class="container header-content">
+            <div class="header-badge">
+                <span class="badge-dot"></span> Proprietary Investment Holding
+            </div>
             <h1 class="company-title">YAB Global Holdings LLC</h1>
-            <div class="company-subtitle">Private Capital & Investment Management</div>
-            <div class="company-location">Wyoming, United States</div>
+            <p class="company-subtitle">Private Capital & Investment Management</p>
+            <div class="company-location">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                Wyoming, United States
+            </div>
         </div>
-      </header>
-      <!-- MAIN CONTENT -->
-       <main class="container">
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="container">
+
         <!-- SECTION 1 -->
-         <section id="who-we-are">
-            <h2>01 - Who We Are</h2>
-            <p><strong>YAB Global Holdings LLC</strong> is a Wyoming-registered private
-            investment holding company. We operate as a propritary trading firm managing
-        our own capital across global foreign exchange and capital market.</p>
-        <p>Our focus is capital preservaation, systematic risk management, and long-term compoundig</p>
-         </section>
-         <!-- SECTION 2 -->
-          <section id="what-we-do">
-            <h2>02 - What We Do</h2>
-            <div class="gird-cards">
+        <section id="who-we-are">
+            <h2>01 — Who We Are</h2>
+            <p><strong>YAB Global Holdings LLC</strong> is a Wyoming-registered private investment holding company. We operate as a proprietary trading firm managing our own capital across global foreign exchange and capital markets.</p>
+            <p>Our focus is capital preservation, systematic risk management, and long-term compounding.</p>
+        </section>
+
+        <!-- SECTION 2 -->
+        <section id="what-we-do">
+            <h2>02 — What We Do</h2>
+            <div class="grid-cards">
                 <div class="card">
                     <span class="card-number">01</span>
-                    <h3>propritary Trading</h3>
-                    <p>WE deploy systematic, data-driven strategies across major FX pairs and
-                        global assets. All trading is conducted on our own account.
-                    </p>
+                    <h3>Proprietary Trading</h3>
+                    <p>We deploy systematic, data-driven strategies across major FX pairs and global assets. All trading is conducted on our own account.</p>
                 </div>
                 <div class="card">
                     <span class="card-number">02</span>
                     <h3>Risk Management</h3>
-                    <p>Every position is governed by strict risk protocols, including predefined
-                        drawdown limits, portfolio hedging, and real-time exposure monitoring.
-                    </p>
+                    <p>Every position is governed by strict risk protocols, including predefined drawdown limits, portfolio hedging, and real-time exposure monitoring.</p>
                 </div>
                 <div class="card">
                     <span class="card-number">03</span>
@@ -73,40 +91,41 @@
                     <p>We hold and manage private capital reserves for long-term investment purposes.</p>
                 </div>
             </div>
-          </section>
-          <!-- SECTION 3 -->
-           <section id="our-approach">
-            <h2>03 - Our Approach</h2>
+        </section>
+
+        <!-- SECTION 3 -->
+        <section id="our-approach">
+            <h2>03 — Our Approach</h2>
             <div class="notice-box">
-                <p>We do not manage third-party funds, offer investment advice, or solicit
-                    public capital. YAB Global Holdings LLC trades exclusively its own private
-                    capital.
-                </p>
+                <p>We do not manage third-party funds, offer investment advice, or solicit public capital. YAB Global Holdings LLC trades exclusively its own private capital.</p>
             </div>
-           </section>
-           <!-- SECTION 4 -->
-            <section id="contact">
-                <h2>04 - Contact</h2>
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <strong>Email:</strong>
-                        <a href="mailto:contact @yabglobalholdings.com">contact@yabglobalholdings.com</a>
-                    </div>
-                    <div class="contact-item">
-                        <strong>Registered Office:</strong>
-                        <span>30N Gould St, Ste R, Sheridan, WY 82801, USA</span>
-                    </div>
+        </section>
+
+        <!-- SECTION 4 -->
+        <section id="contact">
+            <h2>04 — Contact</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <strong>Email:</strong> 
+                    <a href="mailto:contact@yabglobalholdings.com">contact@yabglobalholdings.com</a>
                 </div>
-            </section>
-       </main> 
-       <!-- FOOTER -->
-        <footer>
-            <div class="container">
-                <p>&copy; 2026 YAB Global Holdings LLC. All
-                    Rights Reserved. Wyoming, USA.
-                </p>
+                <div class="contact-item">
+                    <strong>Registered Office:</strong> 
+                    <span>30 N Gould St, Ste R, Sheridan, WY 82801, USA</span>
+                </div>
             </div>
-        </footer>
-        <script src="script.js"></script>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 YAB Global Holdings LLC. All Rights Reserved. Wyoming, USA.</p>
+        </div>
+    </footer>
+
+    <!-- Link to JavaScript File -->
+    <script src="script.js"></script>
 </body>
 </html>
